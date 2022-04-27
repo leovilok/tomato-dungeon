@@ -1,0 +1,29 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://cinematique.gd" type="Script" id=1]
+[ext_resource path="res://cine4.png" type="Texture" id=2]
+[ext_resource path="res://cine1.png" type="Texture" id=3]
+[ext_resource path="res://cine3.png" type="Texture" id=4]
+[ext_resource path="res://cine2.png" type="Texture" id=5]
+
+[node name="cinematique" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Cine1" type="Sprite" parent="."]
+position = Vector2( 160, 120 )
+texture = ExtResource( 3 )
+
+[node name="Cine2" type="Sprite" parent="."]
+visible = false
+position = Vector2( 160, 120 )
+texture = ExtResource( 5 )
+
+[node name="Cine3" type="Sprite" parent="."]
+visible = false
+position = Vector2( 160, 120 )
+texture = ExtResource( 4 )
+
+[node name="Cine4" type="Sprite" parent="."]
+visible = false
+position = Vector2( 160, 120 )
+texture = ExtResource( 2 )

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/tomatobattle.ogg-0d3daa9ac5cc5efbbcc449538d5020ff.oggstr"
+
+[deps]
+
+source_file="res://tomatobattle.ogg"
+dest_files=[ "res://.import/tomatobattle.ogg-0d3daa9ac5cc5efbbcc449538d5020ff.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
