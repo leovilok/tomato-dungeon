@@ -1,3 +1,5 @@
 .import/
 export-*/
 *.x86_64
+*.pck
+*.exe
